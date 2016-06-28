@@ -1,7 +1,7 @@
 body {
     background-color: LightGray;
 }
-div, section {
+div, section, td {
     border: 1px solid Chocolate;
 }
 
@@ -10,6 +10,10 @@ html{
 	box-sizing:border-box;
 }
 
+.font-two {
+	font-family: 'Slabo 27px', serif;
+	font-weight:500;
+}
 h1 {
 	text-align:center;
 }
@@ -18,10 +22,29 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 }
 
-.main-page h1 {
+.content h1 {
 	font-size:4rem;
 	margin-top:1rem;
 }
+
+.projects .transparent-box {
+	font-size:1.8rem;
+	width:25rem;
+	height:4.7rem;
+	text-align:center;
+	margin:0 auto;
+	margin-top:1rem;
+}
+
+.transparent-box h1 {
+	margin:0 auto;
+}
+
+
+.transparent-box {
+	background: rgba(248, 247, 216, 0.7);
+}
+
 
 .main-page h3 {
 	font-size:2.5rem;
@@ -53,5 +76,25 @@ h1 {
 	text-align:center;
 }
 
+.about-me-screen {
+	background-image:url('http://i.imgur.com/mjw2xOA.png');
+	background-size:cover;
+	height:20rem;
+}
 
+.ny-times-screen {
+	background-image:url('http://i.imgur.com/jWCfukx.png');
+	background-size:cover;
+	height:20rem;
+}
+
+.karma-screen {
+	background-image:url('http://i.imgur.com/gorEnTO.png');
+	background-size:cover;
+	height:20rem;
+}
+
+tr:hover {
+	cursor:pointer;
+}
 
