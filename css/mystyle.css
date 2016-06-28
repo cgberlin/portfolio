@@ -1,0 +1,168 @@
+
+div, section, td {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+/*Everything above is just for development to see the secctions/divs*/
+html{
+	box-sizing:border-box;
+	text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.font-two {
+	font-family: 'Slabo 27px', serif;
+	font-weight:500;
+	letter-spacing:.1rem;
+	font-size:1.5rem;
+	text-shadow:none;
+}
+h1 {
+	text-align:center;
+}
+.content {
+	margin:0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+.content h1 {
+	font-size:4rem;
+	margin-top:1rem;
+}
+
+.projects .transparent-box {
+	font-size:1.8rem;
+	width:25rem;
+	height:4.7rem;
+	text-align:center;
+	margin:0 auto;
+	margin-top:1rem;
+}
+
+.transparent-box h1 {
+	margin:0 auto;
+	font-weight:200;
+	letter-spacing:.3rem;
+}
+
+
+.transparent-box {
+	background: rgba(224, 224, 224, 0.2);
+	border-width:thin;
+	border-color:LightGray;
+}
+
+
+
+.main-page > .content {
+	background-image:url('http://i.imgur.com/rrKeLbO.jpg');
+	background-size:cover;
+	width:100%;
+	height:40em;
+	color:white;
+	
+
+}
+
+.main-page div {
+	text-align:center;
+	width:27rem;
+	height:10rem;
+	margin:0 auto;
+	margin-top:6rem;
+	letter-spacing:.3rem;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.project-names {
+	width:100%;
+	text-align:center;
+	border-spacing: 2rem .5rem;
+	
+}
+
+.about-me-screen {
+	background-image:url('http://i.imgur.com/mjw2xOA.png');
+	background-size:cover;
+	height:20rem;
+}
+
+.ny-times-screen {
+	background-image:url('http://i.imgur.com/jWCfukx.png');
+	background-size:cover;
+	height:20rem;
+}
+
+.karma-screen {
+	background-image:url('http://i.imgur.com/gorEnTO.png');
+	background-size:cover;
+	height:20rem;
+}
+
+
+
+tr:hover {
+	cursor:pointer;
+}
+
+
+
+.contact-me h4 {
+	
+	text-align:center;
+	margin-top:5rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+.contact-me {
+	text-shadow: none;
+}
+
+.contact-me .content {
+	text-align:center;
+	margin:2rem;
+	font-weight:300;
+}
+
+.fa-square {
+	color:rgba(224, 224, 224, 5);
+}
+
+.fa:hover {
+	cursor:pointer;
+}
+
+.fa-linkedin, .fa-facebook, .fa-envelope, .fa-github {
+	color:black;
+}
+
+.about-me-screen:hover, .ny-times-screen:hover, .karma-screen:hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+@media only screen and (max-width: 500px) {
+	.content h1 {
+		font-size:2.5rem;
+		margin-top:1rem;
+}
+	.main-page div {
+		width:20rem;
+	}
+
+	.projects h1 {
+		font-size:2rem;
+}
+	.projects .transparent-box {
+		width:17rem;
+		height:3rem;
+	}
+
+	.font-two {
+		font-size:1rem;
+	}
+
+	
+	
+}
