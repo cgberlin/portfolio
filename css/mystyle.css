@@ -98,3 +98,8 @@ tr:hover {
 	cursor:pointer;
 }
 
+.project-names div {
+	height:20rem;
+	width:100%;
+}
+
