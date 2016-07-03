@@ -1,6 +1,6 @@
 
 div, section, td {
-    border: 1px solid rgba(0, 0, 0, 0);
+    border: 1px solid white;
 }
 
 /*Everything above is just for development to see the secctions/divs*/
@@ -61,10 +61,12 @@ h1 {
 	width:100%;
 	height:40em;
 	color:white;
-	
-
 }
 
+
+td div {
+	height:20rem;
+}
 .main-page div {
 	text-align:center;
 	width:27rem;
@@ -161,6 +163,14 @@ tr:hover {
 
 	.font-two {
 		font-size:1rem;
+	}
+
+	.about-me-screen, .karma-screen, .ny-times-screen {
+		height:10rem;
+	}
+
+	td div {
+		height:10rem;
 	}
 
 	
