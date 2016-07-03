@@ -33,18 +33,6 @@ html{
 	margin-top:1rem;
 }
 
-.project-captions h1 {
-	font-size:1.8rem;
-	width:33.33%;
-	height:4.7rem;
-	text-align:center;
-	float:left;
-	display:flex;
-	text-shadow: none;
-	font-family: 'Raleway', sans-serif;
-	background: rgba(224, 224, 224, 0.6);
-	border:.6rem solid white;
-}
 
 
 
@@ -95,6 +83,7 @@ html{
 	text-align:center;
 	display:flex;
 	flex-direction:row;
+	flex-wrap:wrap;
 	height:40rem;
 	margin:0 auto;
 	width:90%;
@@ -113,11 +102,11 @@ html{
 	border-color:white;
 	font-family: 'Raleway', sans-serif;
 	background: rgba(224, 224, 224, 1);
+	
 }
 
 .project-names div {
 		height:30rem;
-		flex-grow:100;
 		width:30rem;
 		border:1rem solid white;
 		
@@ -220,30 +209,11 @@ html{
 }
 
 @media only screen and (max-width: 1650px) {
-	.project-names {
-
-		flex-direction:column;
-
-		
-
-	}
-	.about-me-image {
-		-webkit-order: 1;
-		}
-	.about-me-text {
-	-webkit-order: 2;
-	}
-	.ny-times-image {
-	-webkit-order:-4;
-	}
-	.ny-times-text {
-		order:2;
-	}
-	.karma-image {
-		order:3;
-	}
-	.karma-text {
-		order:3;
+	.project-names div {
+		width:20rem;
+}
+	.about-me-text, .ny-times-text, .karma-text {
+		width:20rem;
 	}
 
 }
