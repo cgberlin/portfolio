@@ -221,7 +221,11 @@ html{
 
 @media only screen and (max-width: 1650px) {
 	.project-names {
+<<<<<<< HEAD
 		flex-direction:column;
+=======
+		flex-wrap:wrap;
+>>>>>>> e1e926a5f1c90b8e014bfadcf7bb0be6ecdcc9aa
 	}
 	.about-me-image {
 		-webkit-order: 1;
