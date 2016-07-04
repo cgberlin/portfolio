@@ -110,6 +110,7 @@ html{
 	font-family: 'Raleway', sans-serif;
 	background: rgba(224, 224, 224, 1);
 	text-shadow: none;
+	margin-top:1rem;
 	
 }
 
@@ -119,26 +120,11 @@ html{
 }
 
 
-
-.about-me-image {
-	background-image:url('http://i.imgur.com/mjw2xOA.png');
-	background-size:cover;
-	
-	
+.project-names img {
+	max-width:100%;
+	height:auto;
 }
 
-.ny-times-image {
-	background-image:url('http://i.imgur.com/jWCfukx.png');
-	background-size:cover;
-	
-}
-
-.karma-image{
-	background-image:url('http://i.imgur.com/gorEnTO.png');
-	background-size:cover;
-	
-	
-}
 
 
 
@@ -246,12 +232,18 @@ a {
 		width:90%;
 	}
 	.project-names div {
-		height:30rem;
+		height:19rem;
 		width:19rem;
 }
 	.about-me-text, .ny-times-text, .karma-text {
 		width:19rem;
+		
 	}
 	
 	
 }
+
+@media only screen and (max-width:1630px) {
+	.project-names div {
+		height:19rem;
+	}
